@@ -142,7 +142,7 @@ else
     location / {
         proxy_set_header Upgrade \$http_upgrade;
         proxy_set_header Connection "upgrade";
-        proxy_pass \$frontend_target/;
+        proxy_pass \$frontend_target;
     }
 EOF
 fi

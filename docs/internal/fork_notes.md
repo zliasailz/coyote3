@@ -42,7 +42,7 @@ release.
 
 | Date | Area | File(s) | Reason | Status |
 | --- | --- | --- | --- | --- |
-| _none yet_ | | | | |
+| 2026-09-12 | nginx proxy | `deploy/compose/nginx/render-config.sh` | Root-path (`SCRIPT_NAME=''`) deployments served `index.html` for every static asset instead of the asset itself — full root-cause, fix, reproduction, and verification in [`docs/internal/known_issues.md` § KI-001](known_issues.md#ki-001-root-path-nginx-deployments-silently-serve-indexhtml-for-every-static-asset). | Source fixed on `center/main`; verified via a full `docker compose up -d --build` recreate (not just a live patch). Not yet reported to SMD Lund. |
 
 Add a row per code-level change made under Phase 8 of the implementation
 roadmap (custom code changes only where configuration cannot express the

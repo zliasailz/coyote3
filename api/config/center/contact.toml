@@ -1,20 +1,20 @@
 [organization]
-name = "Coyote3"
-department = "Section For Molecular Diagnostics (SMD)"
+name = "Coyote3 Pilot Center"
+department = "Genomics Pilot Evaluation"
 
 [support]
-primary_email = ""
+primary_email = "support@ourcenter.example.org"
 urgent_phone = ""
-web_app_base_url = ""
+web_app_base_url = "http://192.168.0.30:6801"
 help_center_url = ""
 
 [[hours]]
 label = "Service desk"
-value = "Monday to Friday, 08:00-16:30"
+value = "Monday to Friday, 09:00-17:00"
 
 [[hours]]
 label = "Out of hours"
-value = "Use the center's established urgent clinical escalation pathway."
+value = "Pilot environment — no out-of-hours support during evaluation."
 
 [[contacts]]
 label = "Clinical support"
@@ -23,8 +23,8 @@ phone = ""
 description = "Use this channel for questions about variant interpretation, report content, or clinical review workflow."
 
 [[contacts.people]]
-name = "Christina Orsmark-Pietras"
-email = "Christina.Orsmark-Pietras@skane.se"
+name = "Pilot Clinical Lead"
+email = "clinical-support@ourcenter.example.org"
 
 [[contacts]]
 label = "Sample and sequencing support"
@@ -33,16 +33,8 @@ phone = ""
 description = "Use this channel for questions about submitted samples, sequencing runs, or file availability."
 
 [[contacts.people]]
-name = "Ram Nanduri"
-email = "ram.nanduri@skane.se"
-
-[[contacts.people]]
-name = "Viktor Henmyr"
-email = "viktor.henmyr@skane.se"
-
-[[contacts.people]]
-name = "Sailendra Pradhananga"
-email = "sailendra.pradhananga@skane.se"
+name = "Pilot Sequencing Lead"
+email = "sequencing-support@ourcenter.example.org"
 
 [[contacts]]
 label = "Platform support"
@@ -51,13 +43,5 @@ phone = ""
 description = "Use this channel for login, permission, ingest, or system availability issues."
 
 [[contacts.people]]
-name = "Ram Nanduri"
-email = "ram.nanduri@skane.se"
-
-[[contacts.people]]
-name = "Viktor Henmyr"
-email = "viktor.henmyr@skane.se"
-
-[[contacts.people]]
-name = "Sailendra Pradhananga"
-email = "sailendra.pradhananga@skane.se"
+name = "Pilot Platform Admin"
+email = "platform-support@ourcenter.example.org"
